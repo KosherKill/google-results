@@ -1,0 +1,92 @@
+
+a {text-decoration:none;
+  color:black;}
+
+a:visited{color:black;}
+
+a.buttonLink{color:white;}
+
+
+.topNav{display:flex;
+    align-items:center;
+    padding-top:15px;
+    padding-right:15px;
+    width:100%;
+    justify-content:space-between;}
+
+.botNav{display:flex;
+        align-items:center;
+        font-size: 14px;
+        margin: 15px 130px auto 125px;
+        width: 43%;}
+
+.logo img{width:89px;
+          height:30px;
+          padding-right:30px;}
+
+.left{display:flex;
+      align-items: center;}
+
+.right{display:flex;
+      align-items:center;}
+
+
+.searchContainer{border-radius:22px;
+                display:flex;
+                width: 580px;
+                height:44px;
+                border: 1px solid #dfe1e5;}
+
+.search{width:530px;
+        height:30px;
+        padding-top: 7px;
+        padding-left:9px;
+        display:block;
+        border:none;
+        font-size:16px;
+        background:transparent;}
+        
+input[type="text"]{text-align:left;}
+
+.eyeglass{width:20px;
+          height:20px;
+          padding-top:10px;}
+
+#navGridImage {width: 25px;
+              padding-right:15px;}
+/*Sign in button*/
+button{background-color:rgb(67, 133, 247);
+  border-color:rgb(67, 133, 247);
+  font-weight:bold;
+  font-size:13px;
+  width:65px;
+  height:26px;
+  }
+
+.searchTabs{display:inline-flex;
+            justify-content:center;
+            align-items:center;
+            font-size:14px;}
+
+.tab{display:flex; 
+     align-items:center;
+     padding-right:10px;
+     opacity: 0.66;
+     }
+.tab:hover{cursor:pointer;
+          opacity:1;
+          color:rgb(67, 133, 247);}
+
+.tabImage{height:15px;
+          padding-right:2px;}
+
+.Settings{padding-left:50px;}
+
+
+
+h3{padding:0px;
+    margin:0px}
+h3 a{color:blue;}
+h3 a:hover{text-decoration:underline;}
+
+.url{color:green;}
