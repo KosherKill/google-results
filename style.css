@@ -63,6 +63,14 @@ button{background-color:rgb(67, 133, 247);
   height:26px;
   }
 
+.time{color: #777;
+      font-size:13px;}
+
+.flexContainer{display:flex;
+               flex-direction:column;
+               padding-left: 130px;
+               padding-right:1000px;}
+
 .searchTabs{display:inline-flex;
             justify-content:center;
             align-items:center;
@@ -80,13 +88,39 @@ button{background-color:rgb(67, 133, 247);
 .tabImage{height:15px;
           padding-right:2px;}
 
-.Settings{padding-left:50px;}
+.Settings{padding-left:100px;}
 
 
 
 h3{padding:0px;
-    margin:0px}
+     margin:0px}
 h3 a{color:blue;}
+h3 a:visited{color:purple;}
 h3 a:hover{text-decoration:underline;}
+.description{padding:0px; 
+             margin:0px;}
 
-.url{color:green;}
+.url a{color:green;}
+
+.questions{
+  border: 1px solid #dfe1e5;
+  border-radius: 15px;}
+  
+.tableHeading{font-size:24px;
+              }
+
+.question table{border:1px solid #dbd8d0;
+  line-height: 40px;}
+
+table tr td{font-size:16px;
+   padding: 5px;
+   line-height: 30px;
+   border-bottom:1px solid #dbd8d0;
+   text-align:left;
+   width: 100%;}
+
+table tr td:hover{cursor:pointer;}
+   
+td img{float:right;
+       width:15px;
+       padding-left:375px;}
