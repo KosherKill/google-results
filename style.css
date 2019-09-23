@@ -64,7 +64,8 @@ button{background-color:rgb(67, 133, 247);
   }
 
 .time{color: #777;
-      font-size:13px;}
+      font-size:13px;
+      padding-top:5px;}
 
 .flexContainer{display:flex;
                flex-direction:column;
@@ -90,17 +91,24 @@ button{background-color:rgb(67, 133, 247);
 
 .Settings{padding-left:100px;}
 
-
+.first{padding-top:25px;}
+.result{padding-bottom: 25px;
+        line-height:1.5;
+        font-family:arial, sans-serif;}
 
 h3{padding:0px;
      margin:0px}
 h3 a{color:blue;}
 h3 a:visited{color:purple;}
 h3 a:hover{text-decoration:underline;}
-.description{padding:0px; 
-             margin:0px;}
+.description{padding:0px;
+             padding-top: 1px; 
+             margin:0px;
+             font-size: 14px;}
 
-.url a{color:green;}
+.url a{color:green;
+       padding-top:1px;
+       padding-bottom:1px;}
 
 .questions{
   border: 1px solid #dfe1e5;
@@ -118,6 +126,8 @@ table tr td{font-size:16px;
    border-bottom:1px solid #dbd8d0;
    text-align:left;
    width: 100%;}
+   
+.lastRow{border-bottom:none;}
 
 table tr td:hover{cursor:pointer;}
    
