@@ -6,6 +6,7 @@ a:visited{color:black;}
 
 a.buttonLink{color:white;}
 
+body{font-family:Arial, Helvetica, sans-serif;}
 
 .topNav{display:flex;
     align-items:center;
@@ -92,15 +93,21 @@ button{background-color:rgb(67, 133, 247);
 .Settings{padding-left:100px;}
 
 .first{padding-top:25px;}
+
 .result{padding-bottom: 25px;
         line-height:1.5;
         font-family:arial, sans-serif;}
 
 h3{padding:0px;
-     margin:0px}
+     margin:0px;
+    font-weight: normal;}
+
 h3 a{color:blue;}
+
 h3 a:visited{color:purple;}
+
 h3 a:hover{text-decoration:underline;}
+
 .description{padding:0px;
              padding-top: 1px; 
              margin:0px;
@@ -112,25 +119,64 @@ h3 a:hover{text-decoration:underline;}
 
 .questions{
   border: 1px solid #dfe1e5;
-  border-radius: 15px;}
+  border-radius: 15px;
+  padding-bottom:0px;
+  margin-bottom:10px;}
   
 .tableHeading{font-size:24px;
               }
 
-.question table{border:1px solid #dbd8d0;
-  line-height: 40px;}
+
+
+
 
 table tr td{font-size:16px;
    padding: 5px;
-   line-height: 30px;
+   line-height: 40px;
    border-bottom:1px solid #dbd8d0;
    text-align:left;
    width: 100%;}
-   
+
+tr
+  
 .lastRow{border-bottom:none;}
 
 table tr td:hover{cursor:pointer;}
    
 td img{float:right;
        width:15px;
-       padding-left:375px;}
+       padding-left:420px;}
+
+ul li{list-style:none;
+  line-height:1.5;
+  text-align:left;}
+
+ul li a{color:blue;}
+.relatedSearch{font-size: 20px;}
+
+
+#longGoogle{padding-left: 175px;
+            margin-top:5px;}
+#rightArrow{height: 12px;
+            position:relative;
+            left:20px;
+            bottom:10px;}
+.linkNumbers a{color:blue;}
+.linkNumbers{padding-left:203px;}
+.linkNumbers span{padding-left:7px;}
+.linkNumbers span:nth-child(11){padding-left: 55px;}
+
+footer{position:relative;
+       width:100%;
+       bottom: 0;
+       background-color: #f2f2f2;
+       margin-top:30px;}
+.foot ul{display:inline-flex;
+        list-style:none;
+        padding-left:120px;}
+
+.foot ul li{padding-left:15px;
+            color: rgba(0,0,0,.54);
+           font-size:14px;}
+.foot ul li:hover{cursor: pointer;
+                  text-decoration:underline;}
